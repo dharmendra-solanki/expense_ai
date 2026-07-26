@@ -1,0 +1,24 @@
+# Client
+client/node_modules/
+client/dist/
+client/.env
+
+# Server
+server/node_modules/
+server/dist/
+server/.env
+
+# Prisma SQLite (if used)
+server/prisma/dev.db
+server/prisma/dev.db-journal
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
