@@ -13,7 +13,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://expense-trackers-ai.netlify.app"
+      "https://expense-trackers-ai.netlify.app/login"
     ],
     credentials: true,
   })
